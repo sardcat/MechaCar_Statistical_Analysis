@@ -21,20 +21,20 @@ Figure 2.) PSI(pounds per square inch) Mean, Median, Variance & Standard Deviati
  * While the overall inventory of suspension coils were within the design specification of variance for PSI (<100), those from Manufacturing Lot #3 showed to be very noticably outside the specification, almost double.
 
 ## T-Tests on Suspension Coils
-* Assuming a normal distribution of suspension coils with a mean of 1500 (standard deviation of 1):
+* Assuming a normal distribution of PSI in a population of suspension coils with a mean of 1500 PSI (standard deviation of 1):
 
-Figure 3.)
+Figure 3.) t-test of PSI in All Manufacturing Lots.
 
 ![](Resources/Fig3.png)
 
-Figure 4.)
+Figure 4.) t-test of PSI in Manufacturing Lot #1.
 
 ![](Resources/Fig4.png)
 
-Figure 5.)
+Figure 5.) t-test of PSI in Manufacturing Lot #2.
 
 ![](Resources/Fig5.png)
 
-Figure 6.)
+Figure 6.) t-test of PSI in Manufacturing Lot #3.
 
 ![](Resources/Fig6.png)
