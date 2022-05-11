@@ -23,18 +23,27 @@ Figure 2.) PSI(pounds per square inch) Mean, Median, Variance & Standard Deviati
 ## T-Tests on Suspension Coils
 * Assuming a normal distribution of PSI in a population of suspension coils with a mean of 1500 PSI (standard deviation of 1):
 
-Figure 3.) t-test of PSI in All Manufacturing Lots.
+Figure 3.) t-test of PSI in All Manufacturing Lots compared to a Normal Distribution Poplation.
 
 ![](Resources/Fig3.png)
 
-Figure 4.) t-test of PSI in Manufacturing Lot #1.
+* The overall manufacturing lots produced a p-value of 0.06, slight above the common signifigance level of 0.05. This indicates there is a small statistical difference between the observed sample mean and its presumed population mean.
+
+Figure 4.) t-test of PSI in Manufacturing Lot #1 compared to a Normal Distribution Poplation.
 
 ![](Resources/Fig4.png)
 
-Figure 5.) t-test of PSI in Manufacturing Lot #2.
+* Manufacturing lot #1 produced a p-value of 1, indicating no statistical difference to the presumed population mean.
+
+Figure 5.) t-test of PSI in Manufacturing Lot #2 compared to a Normal Distribution Poplation.
 
 ![](Resources/Fig5.png)
 
-Figure 6.) t-test of PSI in Manufacturing Lot #3.
+* Manufacturing lot #2 produced a p-value of 0.60, indicating no statistical difference to the presumed population mean.
+
+Figure 6.) t-test of PSI in Manufacturing Lot #3 compared to a Normal Distribution Poplation.
 
 ![](Resources/Fig6.png)
+
+* Manufacturing lot #3 produced a p-value of 0.04, indicating a statistical difference to the presumed population mean.
+
