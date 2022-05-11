@@ -13,12 +13,28 @@ Statistical Analysis with R
 Figure 1.) PSI(pounds per square inch) Mean, Median, Variance & Standard Deviation for All Suspension Coils.
 
 ![](Resources/Fig1.png)
- 
+
 Figure 2.) PSI(pounds per square inch) Mean, Median, Variance & Standard Deviation for Suspension Coils by Manufacturing Lot.
- 
+
 ![](Resources/Fig2.png)
  
  * While the overall inventory of suspension coils were within the design specification of variance for PSI (<100), those from Manufacturing Lot #3 showed to be very noticably outside the specification, almost double.
 
 ## T-Tests on Suspension Coils
-* Assuming a normal distribution of suspension coils with a mean of 1500 (standard deviviation of 1):
+* Assuming a normal distribution of suspension coils with a mean of 1500 (standard deviation of 1):
+
+Figure 3.)
+
+![](Resources/Fig3.png)
+
+Figure 4.)
+
+![](Resources/Fig4.png)
+
+Figure 5.)
+
+![](Resources/Fig5.png)
+
+Figure 6.)
+
+![](Resources/Fig6.png)
