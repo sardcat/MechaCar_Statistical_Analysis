@@ -10,10 +10,12 @@ Statistical Analysis with R
 ## Summary Statistics on Suspension Coils
 * The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.
 
-Figure 1.) Mean, Median, Variance & Standard Deviation for All Suspension Coils.
+Figure 1.) PSI(pounds per square inch) Mean, Median, Variance & Standard Deviation for All Suspension Coils.
 
 ![](Resources/Fig1.png)
  
- Figure 2.) Mean, Median, Variance & Standard Deviation for All Suspension Coils by Manufacturing Lot.
+ Figure 2.) PSI(pounds per square inch) Mean, Median, Variance & Standard Deviation for Suspension Coils by Manufacturing Lot.
  
  ![](Resources/Fig2.png)
+ 
+ * While the overall inventory of suspension coils were within the design specification of variance for PSI (<100), those from Manufacturing Lot #3 showed to be very noticably outside the specification, almost doubled.
