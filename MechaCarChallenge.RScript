@@ -1,0 +1,81 @@
+# Module 15 Challenge: MECHACAR!
+
+# Dev#1
+library(dplyr) # load dataframe manipulation library
+
+mpg_data <- read.csv('MechaCar_mpg.csv') # read CSV file
+
+model <- lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle +
+              ground_clearance + AWD,data=mpg_data) # generate multiple linear regression model
+
+model # print coefficients
+
+summary(model) # statistical model summary
+
+# Dev#2
+
+scoil_data <- read.csv('Suspension_Coil.csv') # read CSV file
+
+total_summary <- scoil_data %>% summarize(Mean=mean(PSI),
+                                          Median=median(PSI),
+                                          Variance=var(PSI),
+                                          SD=sd(PSI)) #create summary table #1
+
+lot_summary <- scoil_data %>% group_by(Manufacturing_Lot) %>%
+  summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),
+            SD=sd(PSI),.groups='keep') #create summary table #2
+
+# Dev#3
+
+# t_test of all lots vs population mean of 1500
+t.test(scoil_data$PSI,mu=1500)
+
+# t_test of Lot#1 vs population mean of 1500
+t.test(subset(scoil_data,Manufacturing_Lot=="Lot1")$PSI,mu=1500)
+
+# t_test of Lot#2 vs population mean of 1500
+t.test(subset(scoil_data,Manufacturing_Lot=="Lot2")$PSI,mu=1500)
+
+# t_test of Lot#3 vs population mean of 1500
+t.test(subset(scoil_data,Manufacturing_Lot=="Lot3")$PSI,mu=1500)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
